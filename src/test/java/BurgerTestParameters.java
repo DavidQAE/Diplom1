@@ -14,7 +14,7 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(Parameterized.class)
-public class BurgerTest1Parameters {
+public class BurgerTestParameters {
 
     private Burger burger;
     private Bun mockBun;
@@ -24,7 +24,7 @@ public class BurgerTest1Parameters {
     private float expectedPrice;
 
 
-    public BurgerTest1Parameters(int numIngredients, float expectedPrice) {
+    public BurgerTestParameters(int numIngredients, float expectedPrice) {
         this.numIngredients = numIngredients;
         this.expectedPrice = expectedPrice;
 
